@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import testimonials data
-import { testimonialsData } from '../data';
+import { testimonialsData } from '../../dataId';
 
 // import swiper react components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../slider.css';
+import '../../slider.css';
 
 // import required modules
 import { Pagination } from 'swiper';

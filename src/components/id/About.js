@@ -1,7 +1,7 @@
 import React from "react";
 
 // import about data
-import { aboutData } from "../data";
+import { aboutData } from "../../dataId";
 
 const About = () => {
   // destructure about

@@ -1,7 +1,7 @@
 import React from "react";
 
 // import hero data
-import { heroData } from "../data";
+import { heroData } from "../../dataEn";
 
 // import icons
 import { BsArrowRight } from "react-icons/bs";
@@ -37,7 +37,17 @@ const Hero = () => {
               {subtitle}
             </p>
             {/* <Review /> */}
-          
+            {/* <button
+              className="btn bg-primary text-base font-bold text-white drop-shadow-primary hover:bg-gray-400 hover:text-primary flex items-center gap-x-[5px] xl:gap-x-[20px] group"
+              data-aos="fade-down"
+              data-aos-delay="100"
+              onClick={() => {
+                window.location.replace("https://firstat.id/statguide/");
+              }}
+            >
+              Click for surprise
+              <BsArrowRight className="text-2xl text-white group-hover:text-primary transition" />
+            </button> */}
           </div>
           {/* image */}
           <div

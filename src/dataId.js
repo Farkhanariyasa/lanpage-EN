@@ -125,12 +125,20 @@ export const featuresData = {
 
 export const testimonialsData = [
   {
-    image: Avatar1Img,
-    name: "Irene",
-    web: "Universitas Tarumanegara",
+    image: Avatar3Img,
+    name: "Sai",
+    web: "Harvard University ",
     message:
-      "Dapat diajak berdiskusi dengan baik.. konsultannya benar2 menguasai dan cara menjelaskannya mudah dipahami.. membuatku jadi makin paham olah data dengan aplikasi MPLUS!",
-    delay: "300",
+      "The teacher is patient, talented and a subject matter expert. She is a kind and charming tutor and provides clear explanations on any questions raised. I highly recommended their service.",
+    delay: "900",
+  },
+  {
+    image: Avatar3Img,
+    name: "Chelsea ",
+    web: "University of Groningen",
+    message:
+      "The teacher is an excellent teacher. She is very helpful and also flexible, which is a very good quality as a tutor. I had a great time during our session! She also makes the session feel welcoming and pleasurable. ",
+    delay: "900",
   },
   {
     image: Avatar2Img,
@@ -140,6 +148,15 @@ export const testimonialsData = [
       "Tutor has a deep understanding of statistics and she is able to explain it in an easy-to-understand language to a person without prior extensive experience in stats!",
     delay: "600",
   },
+  {
+    image: Avatar1Img,
+    name: "Irene",
+    web: "Universitas Tarumanegara",
+    message:
+      "Dapat diajak berdiskusi dengan baik.. konsultannya benar2 menguasai dan cara menjelaskannya mudah dipahami.. membuatku jadi makin paham olah data dengan aplikasi MPLUS!",
+    delay: "300",
+  },
+
   {
     image: Avatar3Img,
     name: "Ina",
@@ -154,22 +171,6 @@ export const testimonialsData = [
     web: "RS Premier Bintaro",
     message:
       "Penjelasan cepat tetapi sederhana dan mudah dimengerti. Diberikan arahan mengenal penggunaan uji statistik yg tepat dan ada garansi nya loooh, memuaskan pokoknya",
-    delay: "900",
-  },
-  {
-    image: Avatar3Img,
-    name: "Sai",
-    web: "Harvard University ",
-    message:
-      "The teacher is excellent! She was very helpful and also flexible - which is a very good quality as a tutor. I had a great time during our sessions! She also made the session feel welcoming and pleasurable.",
-    delay: "900",
-  },
-  {
-    image: Avatar3Img,
-    name: "Chelsea ",
-    web: "University of Groningen",
-    message:
-      "The teacher is an excellent teacher. She is very helpful and also flexible, which is a very good quality as a tutor. I had a great time during our session! She also makes the session feel welcoming and pleasurable. ",
     delay: "900",
   },
 ];

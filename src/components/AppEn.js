@@ -5,13 +5,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 // import components
-import Hero from "./components/en/Hero";
-import About from "./components/en/About";
-import Features from "./components/en/Features";
-import Testimonials from "./components/en/Testimonials";
-import Footer from "./components/en/Footer";
-import Pricing from "./components/en/Pricing";
-import FAQ from "./components/en/FAQ";
+import Hero from "./en/Hero";
+import About from "./en/About";
+import Features from "./en/Features";
+import Testimonials from "./en/Testimonials";
+import Footer from "./en/Footer";
+import Pricing from "./en/Pricing";
+import FAQ from "./en/FAQ";
 
 const AppEn = () => {
   // animate on scroll initialization

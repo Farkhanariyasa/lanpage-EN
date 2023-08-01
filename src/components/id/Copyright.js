@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import copyright data
-import { copyrightData } from '../data';
+import { copyrightData } from '../../dataId';
 
 const Copyright = () => {
   // destructure copyright data

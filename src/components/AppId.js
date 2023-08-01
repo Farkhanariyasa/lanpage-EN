@@ -5,15 +5,15 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 // import components
-import Hero from "./components/en/Hero";
-import About from "./components/en/About";
-import Features from "./components/en/Features";
-import Testimonials from "./components/en/Testimonials";
-import Footer from "./components/en/Footer";
-import Pricing from "./components/en/Pricing";
-import FAQ from "./components/en/FAQ";
+import Hero from "./id/Hero";
+import About from "./id/About";
+import Features from "./id/Features";
+import Testimonials from "./id/Testimonials";
+import Footer from "./id/Footer";
+import Pricing from "./id/Pricing";
+import FAQ from "./id/FAQ";
 
-const AppEn = () => {
+const AppId = () => {
   // animate on scroll initialization
   Aos.init({
     duration: 1800,
@@ -46,4 +46,4 @@ const AppEn = () => {
   );
 };
 
-export default AppEn;
+export default AppId;
